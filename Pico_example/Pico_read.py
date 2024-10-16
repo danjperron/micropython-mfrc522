@@ -40,7 +40,7 @@ try:
                     #utime.sleep(2)
                     #data = [1,2,3,4]
                     #reader.writeNTAGPage(5,data)
-                    #reader.MFRC522_Dump_NTAG(uid,Start=5,End=6)
+                    #reader.MFRC522_Dump_NTAG(Start=5,End=6)
                 else:
                     (stat, tag_type) = reader.request(reader.REQIDL)
                     if stat == reader.OK:
